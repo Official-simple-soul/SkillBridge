@@ -2,13 +2,16 @@
     font-family: 'Be Vietnam Pro', sans-serif;
     box-sizing: border-box;
 }
-.upper-nav{
-    background: #ff9500!important;
+.global-col{
+    background-color: #ff9500!important;
 }
-body{
-    background-color: #bdb1b1;
-}
+  
 
+body{
+    background-color: #F7F7F8;
+
+    
+}
 
 
 
