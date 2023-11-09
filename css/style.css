@@ -1,0 +1,25 @@
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    box-sizing: border-box;
+}
+.upper-nav{
+    background: #ff9500!important;
+}
+body{
+    background-color: #bdb1b1;
+}
+
+
+
+
+
+
+@media (max-width: 767px) {
+    Custom CSS for mobile view
+    .navbar-toggler {
+        order: 2; /* Move the mobile toggle button after "nav-left" */
+    }
+    .nav-left {
+        order: 1; /* Move "nav-left" before the mobile toggle button */
+    }
+}
