@@ -15,18 +15,62 @@
 body{
     background-color: #F1F1F3 !important;
 }
-  
+
+/* Main section for login page with testimonials and login */
+.login-text p {
+    font-size: 1px !important;
+    color: #4C4C4D !important;
+}
+
+.login-page h3 {
+    color: #262626 !important;
+    font-size: 48px !important;
+}
+
+.login-page p {
+    font-size: 18px !important;
+}
+
+.input-bg {
+    background-color: #F1F1F3 !important;
+    border: 1px solid #F1F1F3 !important;
+    height: 50px !important;
+}
+
+.input-bg-remember {
+    background-color: #F1F1F3 !important;
+    border: 1px solid #F1F1F3 !important;
+}
+
+.card-footer {
+    background-color: #FCFCFD !important;
+}
+
+.btn-testimonials {
+    background-color: #F1F1F3 !important;
+}
+
+.stuborn {
+    font-size: 18px !important;
+    color: #262626 !important;
+}
 
 .btn-login {
     background-color: #FF9500 !important;
     color: white !important;
     outline: none !important;
+    font-size: 18px !important;
 }
+
+.anchor-login {
+    text-decoration: none !important;
+    color: #262626 !important;
+}
+/* End of main section for testiomonials and login */
 
 /* Footer styling */
 .btn-socials {
     background-color: #F1F1F3 !important;
-
 }
 
 .home-about p {
@@ -88,16 +132,13 @@ body{
 
 
 
-
-
-
-
+/* responsive design that bring the toggle bar to the right hand side */
 @media (max-width: 767px) {
     Custom CSS for mobile view
     .navbar-toggler {
-        order: 2; /* Move the mobile toggle button after "nav-left" */
+        order: 1; /* Move the mobile toggle button after "nav-left" */
     }
-    .nav-left {
-        order: 1; /* Move "nav-left" before the mobile toggle button */
+    .nav-item {
+        order: 2; /* Move "nav-left" before the mobile toggle button */
     }
 }
