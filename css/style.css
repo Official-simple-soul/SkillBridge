@@ -95,9 +95,9 @@ body{
 @media (max-width: 767px) {
     Custom CSS for mobile view
     .navbar-toggler {
-        order: 2; /* Move the mobile toggle button after "nav-left" */
+        order: 1; /* Move the mobile toggle button after "nav-left" */
     }
     .nav-item {
-        order: 1; /* Move "nav-left" before the mobile toggle button */
+        order: 2; /* Move "nav-left" before the mobile toggle button */
     }
 }
