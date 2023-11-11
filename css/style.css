@@ -11,11 +11,6 @@
     font-size: 14px !important;
 }
 
-/* .upper-nav img {
-    width: 12px !important;
-    height: 14px !important;
-} */
-
 body{
     background-color: #F1F1F3 !important;
 }
@@ -25,6 +20,11 @@ body{
     background-color: #FF9500 !important;
     color: white !important;
     outline: none !important;
+}
+
+/* Courses Page */
+.size {
+    font-size: 11px;
 }
 
 /* Footer styling */
@@ -62,5 +62,45 @@ body{
     }
     .nav-left {
         order: 1; /* Move "nav-left" before the mobile toggle button */
+    }
+
+    /* Courses Style */
+    .hero {
+        flex-direction: column;
+    }
+
+    .w-50 {
+        width: 80% !important;
+    }
+
+    .left {
+        padding-bottom: 5% !important;
+    }
+
+    .card-body {
+        flex-direction: column;
+    }
+
+    .down {
+        flex-direction: column;
+        justify-content: flex-start !important;
+        align-items: start !important;
+    }
+
+    .img-container {
+        width: 120px !important;
+        gap: 5px !important;
+    }
+
+    .period {
+        flex-direction: column;
+        gap: 15px !important;
+    }
+
+    .select {
+        justify-content: flex-start !important;
+        align-items: start !important;
+        padding: 5px 0 5px 0 !important;
+        margin: 10px 0 10px 0 !important;
     }
 }
