@@ -11,10 +11,6 @@
     font-size: 14px !important;
 }
 
-/* .upper-nav img {
-    width: 12px !important;
-    height: 14px !important;
-} */
 
 body{
     background-color: #F1F1F3 !important;
@@ -95,16 +91,13 @@ body{
 /* End of footer */
 
 
-
-
-
-
+/* responsive design that bring the toggle bar to the right hand side */
 @media (max-width: 767px) {
     Custom CSS for mobile view
     .navbar-toggler {
         order: 2; /* Move the mobile toggle button after "nav-left" */
     }
-    .nav-left {
+    .nav-item {
         order: 1; /* Move "nav-left" before the mobile toggle button */
     }
 }
