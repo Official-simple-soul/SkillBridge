@@ -37,8 +37,9 @@
     <header>
         <div class="container-fluid rounded my-3">
             <div class="upper-nav rounded pt-1 pb-1 d-flex justify-content-center gap-3">
-                <p class="text-center text-light fs-6 pt-2 ">Free Courses 🌟 Sale Ends Soon, Get It Now </p>
-                <img src="../IMG/Vector (Stroke).svg" alt="" class="img-fluid">
+                <p class="text-center text-light fs-6 pt-2">Free Courses 🌟 Sale Ends Soon, Get It Now 
+                    <img src="../IMG/Vector (Stroke).svg" alt="" class="img-fluid ms-2">
+                </p>
             </div>
         </div>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -57,16 +58,16 @@
                         </li>
                         
                         <li class="nav-item mx-1">
-                          <a class="nav-link bar active" href="./assets/pages/course.html">Courses</a>
+                          <a class="nav-link bar active" href="course.html">Courses</a>
                         </li>
                         <li class="nav-item mx-1">
-                            <a class="nav-link bar active" href="./assets/pages/about.html">About Us</a>
+                            <a class="nav-link bar active" href="about.html">About Us</a>
                         </li>
                         <li class="nav-item mx-1">
-                            <a class="nav-link bar active" href="./assets/pages/price.html">Price</a>
+                            <a class="nav-link bar active" href="price.html">Price</a>
                         </li>
                         <li class="nav-item mx-1">
-                            <a class="nav-link bar active" href="./assets/pages/contact.html">Contact</a>
+                            <a class="nav-link bar active" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>      
@@ -80,6 +81,91 @@
     </header>
     
     <!-- end of nav -->
+
+    <!-- Main section -->
+    <main>
+        <div class="container-sm mt-5 mb-5 d-lg-flex d-md-flex d-sm-flex justify-content-between align-items-center flex-sm-column-reverse flex-md-row flex-lg-row gap-5">
+            <div class="testimonials w-100">
+                <div>
+                    <h4>Students Testimonials</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. 
+                        Cras eu sit dignissim lorem nibh et.
+                        Ac cum eget habitasse in velit fringilla feugiat senectus in.
+                    </p>
+                </div>
+                
+                <div class="swiper-container mt-4">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <div class="card border-0 rounded-3">
+                            <div class="card-header bg-light p-4">
+                                <p>The web design course provided a solid foundation for me. 
+                                    The instructors were knowledgeable and supportive, 
+                                    and the interactive learning environment was engaging. 
+                                    I highly recommend it!</p>
+                            </div>
+                            <div class="card-footer pt-4 pb-4 d-flex justify-content-between align-items-center">
+                                <div class="user d-flex justify-content-center align-items-center gap-3">
+                                    <img src="../IMG/Login-Image.png" alt="">
+                                    <p>Sarah L</p>
+                                </div>
+                                <div class="read-more">
+                                    <button class="btn btn-testimonials rounded p-2">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <!-- Add more slides as needed -->
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <div class="login-page bg-light bg-light p-4 rounded-3 d-flex flex-column gap-2 w-100">
+                <div class="d-flex flex-column justify-content-center align-items-center login-text">
+                    <h3>Login</h3>
+                    <p class="fs-6">Welcome back! Please log in to access your account.</p>
+                </div>
+                <div class="form d-flex flex-column gap-3">
+                    <div class="mb-3 input-group-sm">
+                        <label for="formGroupExampleInput" class="form-label">Email</label>
+                        <input type="text" class="form-control input-bg" id="formGroupExampleInput" placeholder="Enter your Email">
+                      </div>
+                      <div class="mb-3 input-group-sm">
+                        <label for="formGroupExampleInput2" class="form-label">Password</label>
+                        <input type="text" class="form-control input-bg" id="formGroupExampleInput2" placeholder="Enter Password">
+                      </div>
+                    </div>
+                    <p class="align-self-end stuborn">Forgot Password?</p>
+                    <div class="form-check mb-3">
+                        <input class="form-check-input input-bg-remember" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Remember Me
+                        </label>
+                    </div>
+                    <button class="btn rounded p-2 btn-login w-100">Login</button>
+                    <div class="d-flex justify-content-center gap-3">
+                        <hr class="w-100">
+                        <p>Or</p>
+                        <hr class="w-100">
+                    </div>
+                    <div class="d-flex gap-2 justify-content-center align-items-center rounded-1 pt-3 btn-testimonials w-100">
+                        <p class="" class="stuborn"><img src="../IMG/icons-google.svg" alt="" class="img-fluid me-2">Login with Google</p>
+                    </div>
+                    <div class="d-flex justify-content-center mt-2">
+                        <p class="stuborn">Don't you have and account? 
+                            <a href="#" class="anchor-login">Sign Up</a>
+                            <img src="../IMG/Icon.png" alt="" class="img-fluid">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- End of main section -->
 
 
     <!-- Footer -->
