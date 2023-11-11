@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
 }
+/* home page styling */
 .upper-nav{
     background: #FF9500 !important;
 }
@@ -11,12 +12,44 @@
     font-size: 14px !important;
 }
 
-
+p{
+    color:#262626;
+    font-size: 11px;
+    
+}
 body{
     background-color: #f7f7f8 !important;
 }
-  
-
+.hero-text-container .paragraph{
+    font-size: 11px;
+}
+.hero-button button {
+    background-color: white;
+    /* Assuming the default text color is black */
+    border: 1px solid black; /* Assuming you want a border around the buttons */
+    padding: 10px 20px; /* Adjust padding as needed */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+.hero-button button:hover {
+    background: color #ff9500 !important; /* Change to a color of your choice on hover */
+    color: #fff;
+}
+.home-image{
+    background-image:url(../assets/images/Container.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+ 
+}
+/* home pricing button */
+#Pricing .home-pricing-button:hover{
+    transition: all ease-in-out 0.3s;
+}
+#Pricing .home-pricing-button:hover{
+    background-color: #ff9500;
+}
 
 
 
