@@ -47,12 +47,9 @@
                 <a class="navbar-brand " href="index.html">
                     <img src="../../assets/logo/Logo.svg" alt="simple skillBridge">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-6" 
-                       >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-6">
                         <li class="nav-item mx-1">
                           <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
@@ -74,7 +71,10 @@
                 <div class="nav-right d-flex">
                     <button class="btn" type="submit">Sign Up</button>
                     <button class="btn btn-login" type="submit">Login</button>
-                </div> 
+                </div>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
             </div>
         </nav>
 
@@ -84,7 +84,7 @@
 
     <!-- Main section -->
     <main>
-        <div class="container-sm mt-5 mb-5 d-lg-flex d-md-flex d-sm-flex justify-content-between align-items-center flex-sm-column-reverse flex-md-row flex-lg-row gap-5">
+        <div class="container-sm mt-5 mb-5 d-flex flex-column-reverse flex-lg-row justify-content-between align-items-center  gap-5">
             <div class="testimonials w-100">
                 <div>
                     <h4>Students Testimonials</h4>
@@ -93,12 +93,13 @@
                         Ac cum eget habitasse in velit fringilla feugiat senectus in.
                     </p>
                 </div>
-                
-                <div class="swiper-container mt-4">
+               
+                <!-- Slider main container -->
+                <div class="swiper">
                     <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                      <!-- Slides -->
-                      <div class="swiper-slide">
+                    <div class="swiper-wrapper d-flex">
+                    <!-- Slides -->
+                    <div class="swiper-slide w-50">
                         <div class="card border-0 rounded-3">
                             <div class="card-header bg-light p-4">
                                 <p>The web design course provided a solid foundation for me. 
@@ -116,13 +117,38 @@
                                 </div>
                             </div>
                         </div>
-                      </div>
-                      <!-- Add more slides as needed -->
                     </div>
+                    <div class="swiper-slide w-50">
+                        <div class="card border-0 rounded-3">
+                            <div class="card-header bg-light p-4">
+                                <p>The web design course provided a solid foundation for me. 
+                                    The instructors were knowledgeable and supportive, 
+                                    and the interactive learning environment was engaging. 
+                                    I highly recommend it!</p>
+                            </div>
+                            <div class="card-footer pt-4 pb-4 d-flex justify-content-between align-items-center">
+                                <div class="user d-flex justify-content-center align-items-center gap-3">
+                                    <img src="./assets/IMG/Login-Image.png" alt="">
+                                    <p>Sarah L</p>
+                                </div>
+                                <div class="read-more">
+                                    <button class="btn btn-testimonials rounded p-2">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                
                     <!-- If we need navigation buttons -->
-                    <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
                 </div>
+               
             </div>
             <div class="login-page bg-light bg-light p-4 rounded-3 d-flex flex-column gap-2 w-100">
                 <div class="d-flex flex-column justify-content-center align-items-center login-text">
@@ -158,7 +184,7 @@
                     <div class="d-flex justify-content-center mt-2">
                         <p class="stuborn">Don't you have and account? 
                             <a href="#" class="anchor-login">Sign Up</a>
-                            <img src="../IMG/Icon.png" alt="" class="img-fluid">
+                            <img src="./assets/IMG/Icon.png" alt="" class="img-fluid">
                         </p>
                     </div>
                 </div>
@@ -222,8 +248,11 @@
       AOS.init();
     </script>
 
+     <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./Js/swiper.js"></script>
+
     <!-- javaScipt link -->
     <script src="./js/app.js"></script>
- 
 </body>
 </html>
