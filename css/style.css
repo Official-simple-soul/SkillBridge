@@ -68,6 +68,11 @@ body{
 }
 /* End of main section for testiomonials and login */
 
+/* Styling for Contact Page */
+.contact-size {
+    font-size: 12px;
+}
+
 /* Footer styling */
 .btn-socials {
     background-color: #F1F1F3 !important;
@@ -100,4 +105,30 @@ body{
     .nav-item {
         order: 2; /* Move "nav-left" before the mobile toggle button */
     }
+
+    /* Contact Us */
+    .cont, .full, .Name-div {
+        flex-direction: column;
+    }
+
+    .resp {
+        width: 95% !important;
+    }
+
+    .Name-div .f-name {
+        width: 270px !important;
+    }
+
+    .f-name {
+        margin-bottom: 5%;
+    }
+
+    .other-part {
+        width: 100% !important;
+    }
+
+    .down-contact {
+        margin-top: 5%;
+    }
+    /* End of Contact Styling */
 }
