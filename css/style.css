@@ -4,6 +4,7 @@
     margin: 0;
 }
 /* home page styling */
+    /* navigation bar */
 .upper-nav{
     background: #FF9500 !important;
 }
@@ -12,6 +13,7 @@
     font-size: 14px !important;
 }
 
+  /* Global Styling */
 p{
     color:#262626;
     font-size: 11px;
@@ -20,43 +22,99 @@ p{
 body{
     background-color: #f7f7f8 !important;
 }
+
+    /* Hero Section styling */
+.sub-content-header{
+    position: relative;
+}
+.sub-content-header .hero-abstract-vector{
+    position: absolute;
+    top: -27px;
+    left: 25%;
+}
+
 .hero-text-container .paragraph{
     font-size: 11px;
 }
-.hero-button button {
-    background-color: white;
-    /* Assuming the default text color is black */
-    border: 1px solid black; /* Assuming you want a border around the buttons */
-    padding: 10px 20px; /* Adjust padding as needed */
-    transition: background-color 0.3s ease; /* Smooth transition effect */
+    /* styling for both price and courses in the hero section */
+.home-hero-btn{
+    transition: all ease-in-out 0.3s;
+
 }
-.hero-button button:hover {
-    background: color #ff9500 !important; /* Change to a color of your choice on hover */
-    color: #fff;
+.home-hero-btn:hover{
+    background-color: #FF9500!important;
+    transform: scale(1.1);
 }
-.home-image{
-    background-image:url(../assets/images/Container.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-   
- 
-}
+
+
+
 /* home pricing button */
-#Pricing .home-pricing-button:hover{
+#home_Pricing .home-pricing-button:hover{
     transition: all ease-in-out 0.3s;
 }
-#Pricing .home-pricing-button:hover{
+#home_Pricing .home-pricing-button:hover{
     background-color: #ff9500;
 }
 
+/* end of home page styling */
 
+
+
+/* Main section for login page with testimonials and login */
+.login-text p {
+    font-size: 1px !important;
+    color: #4C4C4D !important;
+}
+
+.login-page h3 {
+    color: #262626 !important;
+    font-size: 48px !important;
+}
+
+.login-page p {
+    font-size: 18px !important;
+}
+
+.input-bg {
+    background-color: #F1F1F3 !important;
+    border: 1px solid #F1F1F3 !important;
+    height: 50px !important;
+}
+
+.input-bg-remember {
+    background-color: #F1F1F3 !important;
+    border: 1px solid #F1F1F3 !important;
+}
+
+.card-footer {
+    background-color: #FCFCFD !important;
+}
+
+.btn-testimonials {
+    background-color: #F1F1F3 !important;
+}
+
+.stuborn {
+    font-size: 18px !important;
+    color: #262626 !important;
+}
+
+.btn-login {
+    background-color: #FF9500 !important;
+    color: white !important;
+    outline: none !important;
+    font-size: 18px !important;
+}
+
+.anchor-login {
+    text-decoration: none !important;
+    color: #262626 !important;
+}
+/* End of main section for testiomonials and login */
 
 /* Footer styling */
 .btn-socials {
     background-color: #F1F1F3 !important;
-
 }
 
 .home-about p {
@@ -77,13 +135,22 @@ body{
 /* End of footer */
 
 
-/* responsive design that bring the toggle bar to the right hand side */
+/* responsive design that bring the toggle bar to the right hand side on the Home page */
 @media (max-width: 767px) {
-    Custom CSS for mobile view
+    /* Custom CSS for mobile view */
     .navbar-toggler {
-        order: 2; /* Move the mobile toggle button after "nav-left" */
+        order: 1; /* Move the mobile toggle button after "nav-left" */
     }
     .nav-item {
-        order: 1; /* Move "nav-left" before the mobile toggle button */
+        order: 2; /* Move "nav-left" before the mobile toggle button */
     }
+    .sub-content-header .hero-abstract-vector{
+        top: -25px;
+        left: 0px;
+    }
+    #home-hero .potent{
+        font-size: 12px;
+        padding:0;
+    }
+    
 }
