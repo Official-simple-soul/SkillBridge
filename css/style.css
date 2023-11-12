@@ -11,7 +11,6 @@
     font-size: 14px !important;
 }
 
-
 body{
     background-color: #F1F1F3 !important;
 }
@@ -62,11 +61,20 @@ body{
     font-size: 18px !important;
 }
 
+/* Courses Page */
+.size {
+    font-size: 11px;
+}
 .anchor-login {
-    text-decoration: none !important;
     color: #262626 !important;
 }
 /* End of main section for testiomonials and login */
+
+/* Styling for Contact Page */
+.contact-size {
+    font-size: 12px;
+}
+/* End of Contact Page */
 
 /* Footer styling */
 .btn-socials {
@@ -148,5 +156,70 @@ body{
     }
     .nav-item {
         order: 2; /* Move "nav-left" before the mobile toggle button */
+    }
+
+    /* Contact Us */
+    .cont, .full, .Name-div {
+        flex-direction: column;
+    }
+
+    .resp {
+        width: 95% !important;
+    }
+
+    .Name-div .f-name {
+        width: 270px !important;
+    }
+
+    .f-name {
+        margin-bottom: 5%;
+    }
+
+    .other-part {
+        width: 100% !important;
+    }
+
+    .down-contact {
+        margin-top: 5%;
+    }
+    /* End of Contact Styling */
+    /* Courses Style */
+    .hero {
+        flex-direction: column;
+    }
+
+    .w-50 {
+        width: 80% !important;
+    }
+
+    .left {
+        padding-bottom: 5% !important;
+    }
+
+    .card-body {
+        flex-direction: column;
+    }
+
+    .down {
+        flex-direction: column;
+        justify-content: flex-start !important;
+        align-items: start !important;
+    }
+
+    .img-container {
+        width: 120px !important;
+        gap: 5px !important;
+    }
+
+    .period {
+        flex-direction: column;
+        gap: 15px !important;
+    }
+
+    .select {
+        justify-content: flex-start !important;
+        align-items: start !important;
+        padding: 5px 0 5px 0 !important;
+        margin: 10px 0 10px 0 !important;
     }
 }
