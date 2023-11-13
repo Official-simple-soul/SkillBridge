@@ -1,9 +1,10 @@
-*{
+* {
     font-family: 'Be Vietnam Pro', sans-serif;
     box-sizing: border-box;
     margin: 0;
 }
-.upper-nav{
+
+.upper-nav {
     background: #FF9500 !important;
 }
 
@@ -11,11 +12,13 @@
     font-size: 14px !important;
 }
 
-body{
+body {
     background-color: #F1F1F3 !important;
 }
 
+
 /* Main section for login page with testimonials and login */
+
 .login-text p {
     font-size: 1px !important;
     color: #4C4C4D !important;
@@ -61,23 +64,33 @@ body{
     font-size: 18px !important;
 }
 
+
 /* Courses Page */
+
 .size {
     font-size: 11px;
 }
+
 .anchor-login {
-    text-decoration: none !important;
     color: #262626 !important;
 }
+
+
 /* End of main section for testiomonials and login */
 
+
 /* Styling for Contact Page */
+
 .contact-size {
     font-size: 12px;
 }
+
+
 /* End of Contact Page */
 
+
 /* Footer styling */
+
 .btn-socials {
     background-color: #F1F1F3 !important;
 }
@@ -97,9 +110,12 @@ body{
     font-size: 14px !important;
 }
 
+
 /* End of footer */
 
+
 /* courses open page styling */
+
 .open-page-text-1 h2 {
     color: #262626 !important;
     line-height: 72px !important;
@@ -110,111 +126,131 @@ body{
     color: #59595A !important;
     size: 14px !important;
 }
+
 .open-number h1 {
     font-weight: 700 !important;
     font-size: 70px !important;
     color: #262626 !important;
 }
+
 .open-number h3 {
     font-size: 24px !important;
     color: #333333 !important;
     font-weight: 600 !important;
 }
+
 .open-ui h5 {
     font-size: 16px !important;
     color: #333333 !important;
     font-weight: 600 !important;
 }
+
 .open-clock-1 p {
     background-color: #FFEACC !important;
     font-size: 14px !important;
 }
+
 .open-ui p {
     font-size: 14px !important;
 }
+
 .open-clock-2 p {
     font-size: 14px !important;
     background-color: #f7f7f8 !important;
 }
 
+.open-card-style {
+    transition: all ease-in-out 0.5s;
+}
 
-
+.open-card-style:hover {
+    transform: scale(1.09);
+}
 
 
 /* responsive design that bring the toggle bar to the right hand side */
+
 @media (max-width: 767px) {
-    Custom CSS for mobile view
-    .navbar-toggler {
-        order: 1; /* Move the mobile toggle button after "nav-left" */
+    Custom CSS for mobile view .navbar-toggler {
+        order: 1;
+        /* Move the mobile toggle button after "nav-left" */
     }
     .nav-item {
-        order: 2; /* Move "nav-left" before the mobile toggle button */
+        order: 2;
+        /* Move "nav-left" before the mobile toggle button */
     }
 
     /* Contact Us */
-    .cont, .full, .Name-div {
+    .cont,
+    .full,
+    .Name-div {
         flex-direction: column;
     }
-
     .resp {
         width: 95% !important;
     }
-
     .Name-div .f-name {
         width: 270px !important;
     }
-
     .f-name {
         margin-bottom: 5%;
     }
-
     .other-part {
         width: 100% !important;
     }
-
     .down-contact {
         margin-top: 5%;
     }
     /* End of Contact Styling */
-    
+
     /* Courses Style */
     .hero {
         flex-direction: column;
     }
-
     .w-50 {
         width: 80% !important;
     }
-
     .left {
         padding-bottom: 5% !important;
     }
-
     .card-body {
         flex-direction: column;
     }
-
     .down {
         flex-direction: column;
         justify-content: flex-start !important;
         align-items: start !important;
     }
-
     .img-container {
         width: 120px !important;
         gap: 5px !important;
     }
-
     .period {
         flex-direction: column;
         gap: 15px !important;
     }
-
     .select {
         justify-content: flex-start !important;
         align-items: start !important;
         padding: 5px 0 5px 0 !important;
         margin: 10px 0 10px 0 !important;
     }
-    /* End */
+}
+
+
+/* About-page styling */
+
+.logo-transparent {
+    display: flex;
+    padding: 40.354px 37.08px 37.083px 40.358px;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: -280px;
+    top: -80px;
+    color: #F7F7F8;
+    width: 361.56px;
+    /* height: -30.56px; */
+    /* top: 46.35px;
+    left: 46.36px; */
 }
