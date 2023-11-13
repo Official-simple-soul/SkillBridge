@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 *{
     font-family: 'Be Vietnam Pro', sans-serif;
     box-sizing: border-box;
@@ -13,9 +12,53 @@
     font-size: 14px !important;
 }
 
+
 body{
     background-color: #F1F1F3 !important;
 }
+
+
+  /* Global Styling */
+  p{
+    color:#262626;
+    font-size: 11px;
+
+}
+    /* Hero Section styling */
+.sub-content-header{
+    position: relative;
+}
+.sub-content-header .hero-abstract-vector{
+    position: absolute;
+    top: -27px;
+    left: 25%;
+}
+
+.hero-text-container .paragraph{
+    font-size: 11px;
+}
+    /* styling for both price and courses in the hero section */
+.home-hero-btn{
+    transition: all ease-in-out 0.3s;
+
+}
+.home-hero-btn:hover{
+    background-color: #FF9500!important;
+    transform: scale(1.1);
+}
+
+
+
+/* home pricing button */
+#home_Pricing .home-pricing-button{
+    transition: all ease-in-out 0.3s;
+}
+
+#home_Pricing .home-pricing-button:hover{
+    background-color: #ff9500;
+}
+
+/* end of home page styling */
 
 /* Main section for login page with testimonials and login */
 .login-text p {
@@ -159,6 +202,15 @@ body{
     .nav-item {
         order: 2; /* Move "nav-left" before the mobile toggle button */
     }
+    
+    .sub-content-header .hero-abstract-vector{
+        top: -25px;
+        left: 0px;
+    }
+    #home-hero .potent{
+        font-size: 12px;
+        padding:0;
+    }
 
     /* Contact Us */
     .cont, .full, .Name-div {
@@ -225,4 +277,4 @@ body{
         margin: 10px 0 10px 0 !important;
     }
 }
->>>>>>> 89b896a5953bab6b22ddb6813ebcc88eb1f7d2b2
+
