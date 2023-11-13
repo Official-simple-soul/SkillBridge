@@ -179,6 +179,7 @@ body {
         order: 2;
         /* Move "nav-left" before the mobile toggle button */
     }
+
     /* Contact Us */
     .cont,
     .full,
@@ -201,6 +202,7 @@ body {
         margin-top: 5%;
     }
     /* End of Contact Styling */
+
     /* Courses Style */
     .hero {
         flex-direction: column;
