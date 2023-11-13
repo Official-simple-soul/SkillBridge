@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+   
+}
+
+/* global styles */
+.bg-main{
+    background-color: #F1F1F3 !important;
+}
+
+.bright{
+    background-color: #FF9500 !important;
+    
+    
+}
+.btn{
+    font-size: 12px !important;
+
+}
+
+
+.price-text{
+    font-size: 12px;
+    font-weight: 200;
+    color: #59595A;
+
+}
+
+.plan {
+    background-color: #F1F1F3 !important;
+    padding: 10px !important; 
+   
+}
+
+.plan-content{
+    border-color: #FFEACC;
+    background-color: #FFF9F0;
+    font-size: 12px;
+}
+
+.Social-icon{
+    width: 50px !important;
+    height: 30px;
+    background-color: #F1F1F3;
+    border-radius: 5px;
+
+}
